@@ -21,6 +21,10 @@ If you are new to LaTeX, the [ShareLaTeX knowledge base][sharelatex-kb] or the [
 
 For additional hints, have a look at [the wiki][wiki]. If you still have problems with the template, feel free to [create an issue][issue]. For general LaTeX questions, use [TeX StackExchange][tex-se].
 
+## Pandoc
+If you prefer to write your thesis in Markdown, a [Pandoc][pandoc] version of this template is available as `pandoc.tex`. A Sample Chapter with FrontMatter is included as `chapters/01_introduction.md` and can be build with `make pandoc`.
+
+
 ## License
 
 [![Creative Commons License][license-image]][license]
@@ -42,6 +46,7 @@ The license **applies only to the template**; there are no restrictions on the r
 [mytum-logo-tum]: https://portal.mytum.de/corporatedesign/download/TUM_Logo/index_html
 [mytum]: https://portal.mytum.de
 [overleaf]: https://www.overleaf.com/
+[pandoc]: http://pandoc.org
 [sample-pdf]: https://raw.github.com/fwalch/tum-thesis-latex/master/build/main.pdf
 [sharelatex-kb]: https://www.sharelatex.com/learn
 [sharelatex]: https://www.sharelatex.com/
