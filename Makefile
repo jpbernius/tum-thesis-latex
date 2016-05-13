@@ -5,6 +5,9 @@ pdf:
 	# Also see .latexmkrc
 	latexmk -outdir=$(OUT) -pdf $(FILE)
 
+pandoc:
+	pandoc --filter pandoc-citeproc -o $(OUT)/$(FILE).pdf --template pandoc.tex chapters/*.md
+
 clean:
 	rm -rf $(filter-out $(OUT)/$(FILE).pdf, $(wildcard $(OUT)/*))
 
